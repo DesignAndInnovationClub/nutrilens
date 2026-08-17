@@ -3,4 +3,6 @@ google-generativeai
 requests
 torch
 torchvision
+opencv-python-headless
+Pillow
 python-dotenv
