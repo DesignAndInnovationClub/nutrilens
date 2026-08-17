@@ -1,0 +1,666 @@
+﻿INS Number,Name,Functional class,Safety Rating (Safe/Caution/High Risk),Health Concern,ADI (Acceptable Daily Intake),EU Warning,US Warning
+100,Curcumins,,Safe,None generally recognized at normal levels,3 mg/kg bw,Approved,Approved
+100(i),Curcumin,Colour,Safe,None generally recognized at normal levels,3 mg/kg bw,Approved,Approved
+100(ii),Turmeric,Colour,Safe,,Not specified,Approved,Approved
+101,Riboflavins,,Safe,None (Vitamin B2),Not specified,Approved,Approved
+101(i),"Riboflavin, synthetic",Colour,Safe,,Not specified,Approved,Approved
+101(ii),Riboflavin 5'-phosphate sodium,Colour,Safe,,Not specified,Approved,Approved
+101(iii),Riboflavin from Bacillus subtilis,Colour,Safe,,Not specified,Approved,Approved
+101(iv),Riboflavin from Ashbya gossypii,Colour,Safe,,Not specified,Approved,Approved
+102,Tartrazine,Colour,Caution,"Hyperactivity in children, allergic reactions in sensitive individuals",7.5 mg/kg bw,Requires warning: 'may have an adverse effect on activity and attention in children',Requires specific declaration on labels
+103,Alkanet,Colour,High risk,Potential toxicity/carcinogenicity,Not allocated,Banned/Not permitted,Banned/Not permitted
+104,Quinoline yellow,Colour,Caution,Hyperactivity in children,0.5 mg/kg bw,Requires warning: 'may have an adverse effect on activity and attention in children',Banned/Not permitted for food
+105,Carthamus yellow,Colour,Safe,None at normal levels,Not allocated,Not permitted,Not permitted as color additive
+107,Yellow 2G,Colour,High risk,Potential toxicity,Not allocated,Banned/Not permitted,Banned/Not permitted
+110,Sunset yellow FCF,Colour,Caution,"Hyperactivity in children, allergic reactions",4 mg/kg bw,Requires warning: 'may have an adverse effect on activity and attention in children',Approved
+120,Carmines (Cochineal extract),Colour,Caution,Rare allergic reactions/anaphylaxis,5 mg/kg bw,Approved,Requires specific declaration on labels due to allergens
+121,Citrus red No. 2,Colour,High risk,Possible carcinogen,Not allocated,Banned/Not permitted,Restricted (only allowed on skins of certain oranges not intended for processing)
+122,Azorubine (Carmoisine),Colour,Caution,Hyperactivity in children,4 mg/kg bw,Requires warning: 'may have an adverse effect on activity and attention in children',Banned/Not permitted
+123,Amaranth,Colour,High risk,Suspected carcinogen/toxicity,0.15 mg/kg bw,Restricted (permitted in some foods/caviar),Banned/Not permitted
+124,Ponceau 4R (Cochineal red A),Colour,Caution,Hyperactivity in children,0.7 mg/kg bw,Requires warning: 'may have an adverse effect on activity and attention in children',Banned/Not permitted
+125,Ponceau SX,Colour,High risk,Potential toxicity,Not allocated,Banned/Not permitted,Restricted (limited specific uses only)
+127,Erythrosine,Colour,Caution,Thyroid issues at high doses,0.1 mg/kg bw,Restricted (only cocktail cherries/candied cherries),"Approved (banned in cosmetics, but allowed in food)"
+129,Allura red AC,Colour,Caution,Hyperactivity in children,7 mg/kg bw,Requires warning: 'may have an adverse effect on activity and attention in children',Approved
+130,Manascorubin,Colour,High risk,Toxicity/Lack of safety data,Not allocated,Not permitted,Not permitted
+131,Patent blue V,Colour,Caution,Allergic reactions,5 mg/kg bw,Approved,Banned/Not permitted
+132,Indigotine (Indigo carmine),Colour,Safe,None at normal levels,5 mg/kg bw,Approved,Approved
+133,Brilliant blue FCF,Colour,Safe,None at normal levels,6 mg/kg bw,Approved,Approved
+134,Spirulina extract,Colour,Safe,,Not specified,Approved,Approved
+140,Chlorophylls,Colour,Safe,,Not specified,Approved,Not permitted as food additive (exempt as natural pigment in some contexts)
+141,"Chlorophylls and chlorophyllins, copper complexes",,Safe,Copper accumulation at extreme high doses,15 mg/kg bw,Approved,Approved (restricted uses)
+141(i),"Chlorophylls, copper complexes",Colour,Safe,,15 mg/kg bw,Approved,Approved
+141(ii),"Chlorophyllins, copper complexes, K/Na salts",Colour,Safe,,15 mg/kg bw,Approved,Approved
+142,Green S,Colour,Caution,Allergic reactions in sensitive individuals,5 mg/kg bw,Approved,Banned/Not permitted
+143,Fast Green FCF,Colour,Safe,None at normal levels,25 mg/kg bw,Not permitted,Approved
+150,Caramels,,Safe,,Not specified,Approved,Approved
+150a,Caramel plain caramel,Colour,Safe,,Not specified,Approved,Approved
+150b,Caramel II sulphite caramel,Colour,Safe,Sulphite sensitivity,160 mg/kg bw,Approved,Approved
+150c,Caramel III - ammonia caramel,Colour,Caution,Contains 4-MEI (potential carcinogen in extreme doses),200 mg/kg bw,Approved (regulated limits on 4-MEI),Approved (Prop 65 warning required in CA if 4-MEI exceeds limits)
+150d,Caramel IV - sulphite ammonia caramel,Colour,Caution,Contains 4-MEI and sulphites,200 mg/kg bw,Approved (regulated limits on 4-MEI),Approved (Prop 65 warning required in CA if 4-MEI exceeds limits)
+151,Brilliant black (Black PN),Colour,Safe,Rare allergic reactions,1 mg/kg bw,Approved,Banned/Not permitted
+152,Carbon black (hydrocarbon),Colour,High risk,Potential PAH contamination (carcinogens),Not allocated,Banned/Not permitted,Banned/Not permitted
+153,Vegetable carbon,Colour,Safe,None if free of PAHs,Not specified,Approved,Not permitted
+154,Brown FK,Colour,High risk,Organ damage in animal studies,0.15 mg/kg bw,Banned/Not permitted,Banned/Not permitted
+155,Brown HT,Colour,Caution,Allergic reactions,1.5 mg/kg bw,Approved,Banned/Not permitted
+160a,Carotenes,,Safe,High doses may turn skin yellow (carotenemia),Not specified,Approved,Approved
+160a(i),"Carotenes, beta-, synthetic",Colour,Safe,,5 mg/kg bw,Approved,Approved
+160a(ii),"Carotenes, beta-, vegetable",Colour,Safe,,Not specified,Approved,Approved
+160a(iii),"Carotenes, beta-, Blakeslea trispora",Colour,Safe,,5 mg/kg bw,Approved,Approved
+160a(iv),B-carotene-rich extract from Dunaliella salina,Colour,Safe,,Not specified,Approved,Approved
+160b,Annatto extracts,,Caution,Rare allergic reactions,Depends on extract,Approved,Approved
+160b(i),"Annatto extracts, bixin-based",Colour,Caution,Rare allergic reactions,12 mg/kg bw,Approved,Approved
+160b(ii),"Annatto extracts, norbixin-based",Colour,Caution,Rare allergic reactions,0.6 mg/kg bw,Approved,Approved
+160c(i),Paprika oleoresin,Colour,Safe,,Not specified,Approved,Approved
+160c(ii),Paprika extract,Colour,Safe,,Not specified,Approved,Approved
+160d,Lycopenes,,Safe,,0.5 mg/kg bw,Approved,Approved
+160d(i),"Lycopene, synthetic",Colour,Safe,,0.5 mg/kg bw,Approved,Approved
+160d(ii),"Lycopene, tomato",Colour,Safe,,0.5 mg/kg bw,Approved,Approved
+160d(iii),"Lycopene, Blakeslea trispora",Colour,Safe,,0.5 mg/kg bw,Approved,Approved
+160e,"Carotenal, beta-apo-8-",Colour,Safe,,0.3 mg/kg bw,Approved,Approved
+160f,"Carotenoic acid, ethyl ester, beta-apo-8-",Colour,Safe,,0.3 mg/kg bw,Not permitted,Not permitted
+161a,Flavoxanthin,Colour,Safe,,Not specified,Not permitted,Not permitted
+161b,Luteins,,Safe,,1 mg/kg bw,Approved,Approved
+161b(i),Lutein from Tagetes erecta,Colour,Safe,,1 mg/kg bw,Approved,Approved
+161b(ii),Tagetes extract,Colour,Safe,,Not specified,Approved,Approved
+161b(iii),Lutein esters from Tagetes erecta,Colour,Safe,,1 mg/kg bw,Approved,Approved
+161c,Kryptoxanthin,Colour,Safe,,Not specified,Not permitted,Not permitted
+161d,Rubixanthin,Colour,Safe,,Not specified,Not permitted,Not permitted
+161e,Violoxanthin,Colour,Safe,,Not specified,Not permitted,Not permitted
+161f,Rhodoxanthin,Colour,Safe,,Not specified,Not permitted,Not permitted
+161g,Canthaxanthin,Colour,Caution,Retinal crystal accumulation at high doses,0.03 mg/kg bw,"Approved (restricted uses, e.g. Saucisses de Strasbourg)",Approved (restricted uses)
+161h,Zeaxanthins,,Safe,,0.75 mg/kg bw,Approved,Approved
+161h(i),"Zeaxanthin, synthetic",Colour,Safe,,0.75 mg/kg bw,Approved,Approved
+161h(ii),Zeaxanthin-rich extract from Tagetes erecta,Colour,Safe,,0.75 mg/kg bw,Approved,Approved
+162,Beet red,Colour,Safe,Beeturia (red urine) - harmless,Not specified,Approved,Approved
+163,Anthocyanins,,Safe,,2.5 mg/kg bw,Approved,Approved
+163(i),Grape skin extract,Colour,Safe,,2.5 mg/kg bw,Approved,Approved
+163(iii),Blackcurrant extract,Colour,Safe,,Not specified,Approved,Approved
+163(iv),Purple corn colour,Colour,Safe,,Not specified,Approved,Approved
+163(v),Red cabbage colour,Colour,Safe,,Not specified,Approved,Approved
+163(vi),Black carrot extract,Colour,Safe,,Not specified,Approved,Approved
+163(vii),Purple sweet potato colour,Colour,Safe,,Not specified,Approved,Approved
+163(viii),Red radish colour,Colour,Safe,,Not specified,Approved,Approved
+163(ix),Elderberry colour,Colour,Safe,,Not specified,Approved,Approved
+163(x),Hibiscus colour,Colour,Safe,,Not specified,Approved,Approved
+163(xi),Butterfly pea flower extract,Colour,Safe,,Not specified,Approved,Approved
+164,Gardenia yellow,Colour,Safe,None at normal levels,Not allocated,Not permitted,Not permitted
+165,Gardenia blue,Colour,Safe,None at normal levels,Not allocated,Not permitted,Not permitted
+166,Sandalwood,Colour,High risk,Not fully evaluated for food safety,Not allocated,Not permitted,Not permitted
+170,Calcium carbonates,,Safe,,Not specified,Approved,Approved
+170(i),Calcium carbonate,Acidity regulator,Safe,,Not specified,Approved,Approved
+170(ii),Calcium hydrogen carbonate,Firming agent,Safe,,Not specified,Approved,Approved
+171,Titanium dioxide,Colour,High risk,Genotoxicity concerns (nanoparticles),Not allocated,Banned in EU as of 2022,Approved
+172,Iron oxides,,Safe,,0.5 mg/kg bw,Approved,Approved
+172(i),"Iron oxide, black",Colour,Safe,,0.5 mg/kg bw,Approved,Approved
+172(ii),"Iron oxide, red",Colour,Safe,,0.5 mg/kg bw,Approved,Approved
+172(iii),"Iron oxide, yellow",Colour,Safe,,0.5 mg/kg bw,Approved,Approved
+173,Aluminium powder,Colour,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+174,Silver,Colour,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+175,"Gold, metallic",Colour,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+176,Potassium aluminium silicate-based pearlescent pigments (PAS-BPP),,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+176(i),"Potassium aluminium silicate-based pearlescent pigments coated with titanium dioxide, Type I",Colour,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+176(ii),"Potassium aluminium silicate-based pearlescent pigments coated with iron oxide, Type II",Colour,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+176(iii),"Potassium aluminium silicate-based pearlescent pigments coated with titanium dioxide and iron oxide, Type III",Colour,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+180,Lithol rubine BK,Colour,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+181,Tannic acid (Tannins),Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+182,Orchil,Colour,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+183,Jagua (genipin-glycine) blue (Jagua blue),Colour,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+200,Sorbic acid,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+201,Sodium sorbate,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+202,Potassium sorbate,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+203,Calcium sorbate,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+209,Heptyl para-hydroxybenzoate,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+210,Benzoic acid,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+211,Sodium benzoate,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+212,Potassium benzoate,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+213,Calcium benzoate,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+214,Ethyl para-hydroxybenzoate,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+215,Sodium ethyl para-hydroxybenzoate,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+216,Propyl para-hydroxybenzoate,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+217,Sodium propyl para-hydroxybenzoate,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+218,Methyl para-hydroxybenzoate,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+219,Sodium methyl para-hydroxybenzoate,Preservative,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+220,Sulphur dioxide,Preservative / Antioxidant,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+221,Sodium sulphite,Preservative / Antioxidant,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+222,Sodium hydrogen sulphite,Preservative / Antioxidant,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+223,Sodium metabisulphite,Preservative / Antioxidant,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+224,Potassium metabisulphite,Preservative / Antioxidant,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+225,Potassium sulphite,Preservative / Antioxidant,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+226,Calcium sulphite,Preservative / Antioxidant,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+227,Calcium hydrogen sulphite,Preservative / Antioxidant,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+228,Potassium bisulphite,Preservative / Antioxidant,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+230,Diphenyl,Preservative,High risk,Carcinogenic or highly toxic,Not specified,Banned/Not permitted (except specific niche uses),Banned/Not permitted
+233,Thiabendazole,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+234,Nisin,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+235,Natamycin (Pimaricin),Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+236,Formic acid,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+237,Sodium formate,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+238,Calcium formate,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+239,Hexamethylene tetramine,Preservative,High risk,Carcinogenic or highly toxic,Not specified,Banned/Not permitted (except specific niche uses),Banned/Not permitted
+240,Formaldehyde,Preservative,High risk,Carcinogenic or highly toxic,Not specified,Banned/Not permitted (except specific niche uses),Banned/Not permitted
+241,Gum guaiacum,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+242,Dimethyl dicarbonate,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+243,Lauric arginate ethyl ester,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+246,Glycolipids,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+249,Potassium nitrite,Preservative / Colour-retention,Caution,Formation of carcinogenic nitrosamines,3.7 mg/kg bw (nitrates) / 0.07 (nitrites),Approved (restricted to specific meats/cheeses),Approved (tightly regulated)
+250,Sodium nitrite,Preservative / Colour-retention,Caution,Formation of carcinogenic nitrosamines,3.7 mg/kg bw (nitrates) / 0.07 (nitrites),Approved (restricted to specific meats/cheeses),Approved (tightly regulated)
+251,Sodium nitrate,Preservative / Colour-retention,Caution,Formation of carcinogenic nitrosamines,3.7 mg/kg bw (nitrates) / 0.07 (nitrites),Approved (restricted to specific meats/cheeses),Approved (tightly regulated)
+252,Potassium nitrate,Preservative / Colour-retention,Caution,Formation of carcinogenic nitrosamines,3.7 mg/kg bw (nitrates) / 0.07 (nitrites),Approved (restricted to specific meats/cheeses),Approved (tightly regulated)
+260,"Acetic acid, glacial",Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+261,Potassium acetates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+261(i),Potassium acetate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+261(ii),Potassium diacetate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+262,Sodium acetates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+262(i),Sodium acetate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+262(ii),Sodium diacetate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+263,Calcium acetate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+264,Ammonium acetate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+265,Dehydroacetic acid,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+266,Sodium dehydroacetate,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+267,Buffered vinegar,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+270,"Lactic acid, L-, D- and DL-",Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+280,Propionic acid,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+281,Sodium propionate,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+282,Calcium propionate,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+283,Potassium propionate,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+290,Carbon dioxide,Packaging gas,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+296,"Malic acid, DL-",Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+297,Fumaric acid,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+300,"Ascorbic acid, L-",Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+301,Sodium ascorbate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+302,Calcium ascorbate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+303,Potassium ascorbate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+304,Ascorbyl palmitate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+305,Ascorbyl stearate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+307,Tocopherols,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+307a,"Tocopherol, d-alpha-",Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+307b,"Tocopherol concentrate, mixed",Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+307c,"Tocopherol, dl-alpha-",Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+308,"Tocopherol, gamma-, synthetic",Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+309,"Tocopherol, delta-, synthetic",Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+310,Propyl gallate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+311,Octyl gallate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+312,Dodecyl gallate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+313,Ethyl gallate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+314,Guaiac resin,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+315,Erythorbic acid (Isoascorbic acid),Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+316,Sodium erythorbate (Sodium isoascorbate),Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+317,Potassium isoascorbate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+318,Calcium isoascorbate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+319,Tertiary butylhydroquinone,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+320,Butylated hydroxyanisole,Antioxidant,Caution,"Endocrine disruption, possible carcinogen in animal studies",0.5 mg/kg bw,Approved (strict limits),Approved (strict limits)
+321,Butylated hydroxytoluene,Antioxidant,Caution,"Endocrine disruption, possible carcinogen in animal studies",0.5 mg/kg bw,Approved (strict limits),Approved (strict limits)
+322,Lecithins,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+322a,Oat lecithin,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+322(i),Lecithin,Emulsifier / Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+322(ii),"Lecithin, partially hydrolysed",Emulsifier / Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+322(iii),"Lecithin, hydroxylated",Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+323,Anoxomer,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+324,Ethoxyquin,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+325,Sodium lactate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+326,Potassium lactate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+327,Calcium lactate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+328,Ammonium lactate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+329,"Magnesium lactate, DL-",Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+330,Citric acid,Acidity regulator / Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+331,Sodium citrates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+331(i),Sodium dihydrogen citrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+331(ii),Disodium monohydrogen citrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+331(iii),Trisodium citrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+332,Potassium citrates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+332(i),Potassium dihydrogen citrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+332(ii),Tripotassium citrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+333,Calcium citrates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+333(i),Monocalcium citrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+333(ii),Dicalcium citrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+333(iii),Tricalcium citrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+334,"Tartaric acid, L(+)-",Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+335,Sodium tartrates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+335(i),Monosodium tartrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+335(ii),Sodium L(+)-tartrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+336,Potassium tartrates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+336(i),Monopotassium tartrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+336(ii),Dipotassium tartrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+337,Potassium sodium L(+)-tartrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+338,Phosphoric acid,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+339,Sodium phosphates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+339(i),Sodium dihydrogen phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+339(ii),Disodium hydrogen phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+339(iii),Trisodium phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+340,Potassium phosphates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+340(i),Potassium dihydrogen phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+340(ii),Dipotassium hydrogen phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+340(iii),Tripotassium phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+341,Calcium phosphates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+341(i),Calcium dihydrogen phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+341(ii),Calcium hydrogen phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+341(iii),Tricalcium phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+342,Ammonium phosphates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+342(i),Ammonium dihydrogen phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+342(ii),Diammonium hydrogen phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+343,Magnesium phosphates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+343(i),Magnesium dihydrogen phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+343(ii),Magnesium hydrogen phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+343(iii),Trimagnesium phosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+350,Sodium malates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+350(i),Sodium hydrogen DL-malate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+350(ii),Sodium DL-malate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+351,Potassium malates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+351(i),Potassium hydrogen malate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+351(ii),Potassium malate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+352,Calcium malates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+352(i),Calcium hydrogen malate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+352(ii),"Calcium malate, D,L-",Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+353,Metatartaric acid,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+354,"Calcium tartrate, DL-",Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+355,Adipic acid,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+356,Sodium adipates,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+357,Potassium adipates,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+359,Ammonium adipates,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+363,Succinic acid,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+364,Sodium succinates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+364(i),Monosodium succinate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+364(ii),Disodium succinate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+365,Sodium fumarates,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+366,Potassium fumarates,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+367,Calcium fumarates,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+368,Ammonium fumarate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+370,"Heptonolactone, 1,4-",Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+375,Nicotinic acid,Colour-retention agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+380,Triammonium citrate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+381,Ferric ammonium citrate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+383,Calcium glycerophosphate,Gelling agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+384,Isopropyl citrates,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+385,Calcium disodium ethylenediaminetetraacetate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+386,Disodium ethylenediaminetetraacetate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+387,Oxystearin,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+388,Thiodipropionic acid,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+389,Dilauryl thiodipropionate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+390,Distearyl thiodipropionate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+391,Phytic acid,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+392,Rosemary extract,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+399,Calcium lactobionate,Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+400,Alginic acid,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+401,Sodium alginate,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+402,Potassium alginate,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+403,Ammonium alginate,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+404,Calcium alginate,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+405,Propylene glycol alginate,Bulking agent,Safe,"Toxicity only at extreme, non-food doses",25 mg/kg bw,Approved,Approved
+406,Agar,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+407,Carrageenan,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+407a,Processed euchema seaweed (PES),Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+408,Baker's yeast glycan,Gelling agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+409,Arabinogalactan,Gelling agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+410,Carob bean gum,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+411,Oat gum,Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+412,Guar gum,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+413,Tragacanth gum,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+414,Gum arabic (Acacia gum),Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+415,Xanthan gum,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+416,Karaya gum,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+417,Tara gum,Gelling agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+418,Gellan,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+418(i),Gellan gum,Gelling agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+418(ii),Low-acyl clarified gellan gum,Gelling agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+419,Gum ghatti,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+420,Sorbitols,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+420(i),Sorbitol,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+420(ii),Sorbitol syrup,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+421,Mannitol,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+422,Glycerol,Humectant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+423,Octenyl succinic acid (OSA) modified gum arabic,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+424,Curdlan,Firming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+425,Konjac flour,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+426,Soybean hemicellulose,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+427,Cassia gum,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+428,Gelatin,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+429,Peptones,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+430,Polyoxyethylene (8) stearate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+431,Polyoxyethylene (40) stearate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+432,Polyoxyethylene (20) sorbitan monolaurate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+433,Polyoxyethylene (20) sorbitan monooleate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+434,Polyoxyethylene (20) sorbitan monopalmitate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+435,Polyoxyethylene (20) sorbitan monostearate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+436,Polyoxyethylene (20) sorbitan tristearate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+437,Tamarind seed polysaccharide,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+440,Pectins,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+441,Superglycerinated hydrogenated rapeseed oil,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+442,Ammonium salts of phosphatidic acid,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+443,Brominated vegetable oils,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+444,Sucrose acetate isobutyrate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+445,Glycerol esters of rosin,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+445(i),Glycerol ester of gum rosin,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+445(ii),Glycerol ester of tall oil rosin,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+445(iii),Glycerol ester of wood rosin,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+446,Succistearin,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+450,Diphosphates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+450(i),Disodium diphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+450(ii),Trisodium diphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+450(iii),Tetrasodium diphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+450(iv),Dipotassium diphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+450(v),Tetrapotassium diphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+450(vi),Dicalcium diphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+450(vii),Calcium dihydrogen diphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+450(viii),Dimagnesium diphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+450(ix),Magnesium dihydrogen diphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+451,Triphosphates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+451(i),Pentasodium triphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+451(ii),Pentapotassium triphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+451(iii),Sodium potassium triphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+452,Polyphosphates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+452(i),Sodium polyphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+452(ii),Potassium polyphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+452(iii),Sodium calcium polyphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+452(iv),Calcium polyphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+452(v),Ammonium polyphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+452(vi),Sodium potassium hexametaphosphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+453,Ferric (III)-orthophosphate,Colour,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+454,Ferric(III)-pyrophosphate,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+455,Yeast mannoproteins,Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+456,Potassium polyaspartate,Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+457,"Cyclodextrin, alpha-",Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+458,"Cyclodextrin, gamma-",Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+459,"Cyclodextrin, beta-",Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+460,Celluloses,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+460(i),Microcrystalline cellulose (cellulose gel),Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+460(ii),Powdered cellulose,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+461,Methyl cellulose,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+462,Ethyl cellulose,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+463,Hydroxypropyl cellulose,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+464,Hydroxypropyl methyl cellulose,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+465,Methyl ethyl cellulose,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+466,Sodium carboxymethyl cellulose (cellulose gum),Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+467,Ethyl hydroxyethyl cellulose,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+468,Cross-linked sodium carboxymethyl cellulose,Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+469,Sodium carboxymethyl cellulose enzymatically hydrolysed,Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+470,"Salts of fatty acids (Al, NH4, Ca, Mg, K, Na)",,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+470(i),"Salts of myristic, palmitic and stearic acids",Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+470(ii),Salts of oleic acid with calcium potassium sodium,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+470(iii),Magnesium stearate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+471,Mono-and di-glycerides of fatty acids,Antifoaming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+472a,Acetic and fatty acid esters of glycerol,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+472b,Lactic and fatty acid esters of glycerol,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+472c,Citric and fatty acid esters of glycerol,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+472d,Tartaric acid esters of mono- and di-glycerides,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+472e,Diacetyltartaric and fatty acid esters of glycerol,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+472g,Succinylated monoglycerides,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+473,Sucrose esters of fatty acids,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+473a,"Sucrose oligoesters, type I and type II",Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+474,Sucroglycerides,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+475,Polyglycerol esters of fatty acids,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+476,Polyglycerol esters of interesterified ricinoleic acid,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+477,Propylene glycol esters of fatty acids,Emulsifier,Safe,"Toxicity only at extreme, non-food doses",25 mg/kg bw,Approved,Approved
+478,Lactylated fatty acid esters of glycerol and propylene glycol,Emulsifier,Safe,"Toxicity only at extreme, non-food doses",25 mg/kg bw,Approved,Approved
+479,Thermally oxidized soya bean oil interacted with mono- and di-glycerides,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+480,Dioctyl sodium sulfosuccinate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+481,Sodium lactylates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+481(i),Sodium stearoyl lactylate,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+481(ii),Sodium oleyl lactylate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+482,Calcium lactylates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+482(i),Calcium stearoyl lactylate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+482(ii),Calcium oleyl lactylate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+483,Stearyl tartrate,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+484,Stearyl citrate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+485,Sodium stearoyl fumarate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+486,Calcium stearoyl fumarate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+487,Sodium laurylsulphate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+488,Ethoxylated mono-and di-glycerides,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+489,Methyl glucoside-coconut oil ester,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+491,Sorbitan monostearate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+492,Sorbitan tristearate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+493,Sorbitan monolaurate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+494,Sorbitan monooleate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+495,Sorbitan monopalmitate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+496,Sorbitan trioleate,Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+499,Stigmasterol-rich plant sterols,Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+500,Sodium carbonates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+500(i),Sodium carbonate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+500(ii),Sodium hydrogen carbonate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+500(iii),Sodium sesquicarbonate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+501,Potassium carbonates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+501(i),Potassium carbonate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+501(ii),Potassium hydrogen carbonate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+503,Ammonium carbonates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+503(i),Ammonium carbonate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+503(ii),Ammonium hydrogen carbonate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+504,Magnesium carbonates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+504(i),Magnesium carbonate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+504(ii),Magnesium hydroxide carbonate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+505,Ferrous carbonate,Colour-retention agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+507,Hydrochloric acid,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+508,Potassium chloride,Firming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+509,Calcium chloride,Firming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+510,Ammonium chloride,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+511,Magnesium chloride,Colour-retention agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+512,Stannous chloride,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+513,Sulphuric acid,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+514,Sodium sulphates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+514(i),Sodium sulphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+514(ii),Sodium hydrogen sulphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+515,Potassium sulphates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+515(i),Potassium sulphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+515(ii),Potassium hydrogen sulphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+516,Calcium sulphate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+517,Ammonium sulphate,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+518,Magnesium sulphate,Firming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+519,Cupric sulphate,Colour-retention agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+520,Aluminium sulphate,Firming agent,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+521,Aluminium sodium sulphate,Acidity regulator,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+522,Aluminium potassium sulphate,Acidity regulator,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+523,Aluminium ammonium sulphate,Acidity regulator,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+524,Sodium hydroxide,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+525,Potassium hydroxide,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+526,Calcium hydroxide,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+527,Ammonium hydroxide,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+528,Magnesium hydroxide,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+529,Calcium oxide,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+530,Magnesium oxide,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+534,Iron tartrate:,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+535,Sodium ferrocyanide,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+536,Potassium ferrocyanide,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+537,Ferrous hexacyanomanganate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+538,Calcium ferrocyanide,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+539,Sodium thiosulphate,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+541,Sodium aluminium phosphates,,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+541(i),"Sodium aluminium phosphate, acidic",Acidity regulator,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+541(ii),"Sodium aluminium phosphate, basic",Acidity regulator,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+542,Bone phosphate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+550,Sodium silicates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+550(i),Sodium silicate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+550(ii),Sodium metasilicate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+551,"Silicon dioxide, amorphous",Anticaking agent,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+552,Calcium silicate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+553,Magnesium silicates,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+553(i),"Magnesium silicate, synthetic",Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+553(ii),Magnesium trisilicate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+553(iii),Talc,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+554,Sodium aluminium silicate,Anticaking agent,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+555,Potassium aluminium silicate,Anticaking agent,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+556,Calcium aluminium silicate,Anticaking agent,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+557,Zinc silicate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+558,Bentonite,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+559,Aluminium silicate,Anticaking agent,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+560,Potassium silicate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+570,Fatty acids,Antifoaming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+574,"Gluconic acid, D-",Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+575,Glucono delta-lactone,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+576,Sodium gluconate,Sequestrant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+577,Potassium gluconate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+578,Calcium gluconate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+579,Ferrous gluconate,Colour-retention agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+580,Magnesium gluconate,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+585,Ferrous lactate,Colour-retention agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+586,"Hexylresorcinol, 4-",Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+620,"Glutamic acid, L(+)-",Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+621,Monosodium L-glutamate,Flavour enhancer,Caution,MSG symptom complex in highly sensitive individuals,Not specified (self-limiting),Approved,Approved (requires labeling)
+622,Monopotassium L-glutamate,Flavour enhancer,Caution,MSG symptom complex in highly sensitive individuals,Not specified (self-limiting),Approved,Approved (requires labeling)
+623,Calcium di-L-glutamate,Flavour enhancer,Caution,MSG symptom complex in highly sensitive individuals,Not specified (self-limiting),Approved,Approved (requires labeling)
+624,Monoammonium L-glutamate,Flavour enhancer,Caution,MSG symptom complex in highly sensitive individuals,Not specified (self-limiting),Approved,Approved (requires labeling)
+625,Magnesium di-L-glutamate,Flavour enhancer,Caution,MSG symptom complex in highly sensitive individuals,Not specified (self-limiting),Approved,Approved (requires labeling)
+626,"Guanylic acid, 5'-",Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+627,Disodium 5-guanylate,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+628,Dipotassium 5'-guanylate,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+629,Calcium 5'-guanylate,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+630,"Inosinic acid, 5-",Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+631,Disodium 5'-inosinate,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+632,Potassium 5'-inosinate,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+633,Calcium 5'-inosinate,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+634,Calcium 5'-ribonucleotides,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+635,Disodium 5'-ribonucleotides,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+636,Maltol,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+637,Ethyl maltol,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+638,Sodium L-aspartate,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+639,"Alanine, DL-",Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+640,Glycine,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+641,"Leucine, L-",Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+642,Lysin hydrochloride,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+650,Zinc acetate,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+900a,Polydimethylsiloxane,Anticaking agent,Safe,None at normal levels,1.5 mg/kg bw,Approved,Approved
+900b,Methylphenylpolysiloxane,Antifoaming agent,Safe,None at normal levels,1.5 mg/kg bw,Approved,Approved
+901,Beeswax,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+902,Candelilla wax,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+903,Carnauba wax,Acidity regulator,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+904,"Shellac, bleached",Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+905a,"Mineral oil, food grade",Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+905b,Petroleum jelly (petrolatum),Antifoaming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+905c,Petroleum wax,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+905c(i),Microcrystalline wax,Antifoaming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+905c(ii),Paraffin wax,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+905d,"Mineral oil, high viscosity",Antifoaming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+905e,"Mineral oil, medium viscosity",Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+905f,"Mineral oil, medium and low viscosity, class II",Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+905g,"Mineral oil, medium and low viscosity, class III",Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+906,Benzoin gum,Glazing agent,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+907,Hydrogenated poly-1-decenes,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+908,Rice bran wax,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+909,Spermaceti wax,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+910,Wax esters,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+911,Methyl esters of fatty acids,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+913,Lanolin,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+914,Oxidized polyethylene wax,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+915,"Glycerol, methyl, or pentaerithrytol esters of colophane",Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+916,Calcium iodate,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+917,Potassium iodate,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+918,Nitrogen oxides,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+919,Nitrosyl chloride,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+920,"Cysteine, L- and its hydrochlorides - sodium and potassium salts",Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+921,"Cystine, L-and its hydrochlorides sodium and potassium salts",Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+922,Potassium persulphate,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+923,Ammonium persulphate,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+925,Chlorine,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+926,Chlorine dioxide,Flour treatment agent,Caution,"Asthma exacerbation, allergic reactions in sensitive individuals",0.7 mg/kg bw,Approved (mandatory allergen labeling if >10mg/kg),Approved (mandatory labeling)
+927a,Azodicarbonamide,Flour treatment agent,High risk,"Respiratory issues (occupational), forms semicarbazide (carcinogen) when baked",Not allocated,Banned/Not permitted,Approved (up to 45 ppm)
+927b,Urea (Carbamide),Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+928,Benzoyl peroxide,Bleaching agent,Caution,"Hyperactivity in children, potential benzene formation with ascorbic acid",5 mg/kg bw,Approved (restricted limits),Approved
+929,Acetone peroxide,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+930,Calcium peroxide,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+940,Dichlorodifluormethane,Propellant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+941,Nitrogen,Foaming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+942,Nitrous oxide,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+943a,Butane,Propellant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+943b,Isobutane,Propellant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+944,Propane,Propellant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+945,Chloropentafluorethane,Propellant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+946,Octafluorcyclobutane,Propellant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+949,Hydrogen,Packaging gas,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+950,Acesulfame potassium,Flavour enhancer,Caution,"Microbiome concerns, metabolic effects under study",Not specified,Approved,Approved
+951,Aspartame,Flavour enhancer,Caution,"Phenylketonuria (PKU) risk, controversial cancer links (IARC Group 2B)",40 mg/kg bw,Approved (requires phenylalanine warning),Approved (requires PKU warning)
+952,Cyclamates,,Caution,"Microbiome concerns, metabolic effects under study",Not specified,Approved,Approved
+952(i),Cyclamic acid,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+952(ii),Calcium cyclamate,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+952(iv),Sodium cyclamate,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+953,Isomalt (hydrogenated isomaltulose),Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+954,Saccharins,,Caution,Historical bladder cancer concerns (cleared),5 mg/kg bw,Approved,Approved
+954(i),Saccharin,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+954(ii),Calcium saccharin,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+954(iii),Potassium saccharin,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+954(iv),Sodium saccharin,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+955,Sucralose (trichlorogalactosucrose),Flavour enhancer,Caution,Potential microbiome alteration at high doses,15 mg/kg bw,Approved,Approved
+956,Alitame,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+957,Thaumatin,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+958,Glycyrrhizin,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+959,Neohesperidine dihydrochalcone,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+960,Steviol glycosides,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+960a,Steviol glycosides from Stevia rebaudiana Bertoni,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+960b,Steviol glycosides from fermentation,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+960c,Enzymatically produced steviol glycosides,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+960d,Glucosylated steviol glycosides,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+961,Neotame,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+962,Aspartame-acesulfame salt,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+963,"Tagatose, D-",Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+964,Polyglycitol syrup,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+965,Maltitols,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+965(i),Maltitol,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+965(ii),Maltitol syrup,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+966,Lactitol,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+967,Xylitol,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+968,Erythritol,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+969,Advantame,Sweetener,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+999,Quillaja extracts,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+999(i),Quillaia extract type 1,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+999(ii),Quillaia extract type 2,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1000,Cholic acid,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1001,Choline salts and esters,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1001(i),Choline acetate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1001(ii),Choline carbonate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1001(iii),Choline chloride,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1001(iv),Choline citrate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1001(v),Choline tartrate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1001(vi),Choline lactate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1100,Amylases,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1100(i),alpha-Amylase from Aspergillus oryzae var.,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1100(ii),alpha-Amylase from Bacillus stearothermophilus,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1100(iii),alpha-Amylase from Bacillus subtilis,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1100(iv),alpha-Amylase from Bacillus megaterium expressed in Bacillus subtilis,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1100(v),alpha-Amylase from Bacillus stearothermophilus expressed in Bacillus subtilis,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1100(vi),Carbohydrase from Bacillus licheniformis,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1101,Proteases,,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1101(i),Proteasefrom Aspergillus oryzae. Var.,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1101(ii),Papain,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1101(iii),Bromelain,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1101(iv),Ficin,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1101(v),Protease from Streptomyces fradiae,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1101(vi),Proteases from Bacillus subtilis,Flour treatment agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1102,Glucose oxidase,Antioxidant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1103,Invertases,Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1104,Lipases,Flavour enhancer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1105,Lysozyme,Preservative,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1200,Polydextroses,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1201,Polyvinylpyrrolidone,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1202,"Polyvinylpyrrolidone, insoluble",Colour-retention agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1203,Polyvinyl alcohol,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1204,Pullulan,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1205,"Methacrylate copolymer, basic",Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1206,"Methacrylate copolymer, neutral",Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1207,"Methacrylate copolymer, anionic",Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1208,Polyvinylpyrrolidone-vinyl acetate copolymer,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1209,Polyvinyl alcohol (PVA)-polyethylene glycol (PEG) graft copolymer,Glazing agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1210,Sodium polyacrylate,Stabilizer,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1211,Carbomer,Bulking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1400,"Dextrins, roasted starch",Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1401,Acid-treated starch,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1402,Alkaline-treated starch,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1403,Bleached starch,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1404,Oxidized starch,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1405,"Starches, enzyme treated",Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1410,Monostarch phosphate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1412,Distarch phosphate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1413,Phosphated distarch phosphate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1414,Acetylated distarch phosphate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1420,Starch acetate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1422,Acetylated distarch adipate,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1440,Hydroxypropyl starch,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1442,Hydroxypropyl distarch phosphate,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1450,Starch sodium octenyl succinate,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1451,Acetylated oxidized starch,Emulsifier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1452,Starch aluminium octenyl succinate,Anticaking agent,Caution,Potential neurotoxicity at high exposure,2 mg/kg bw (provisional),Approved (restricted uses/limits),Approved
+1503,Castor oil,Anticaking agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1504(i),Cyclotetraglucose,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1504(ii),Cyclotetraglucose syrup,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1505,Triethyl citrate,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1517,Glycerol diacetate,Sequestrant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1518,Triacetin,Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1519,Benzyl alcohol,Humectant,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1520,Propylene glycol,Carrier,Safe,"Toxicity only at extreme, non-food doses",25 mg/kg bw,Approved,Approved
+1521,Polyethylene glycol,Antifoaming agent,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
+1522,"Calcium lignosulphonate, 40-65",Carrier,Safe,None generally recognized at normal levels,Not specified,Approved,Approved
