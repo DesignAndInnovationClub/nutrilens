@@ -3,10 +3,9 @@ from barcode_reader import barcode_scanner
 from openfoodfactsapi import get_product_info
 from rag import analyze_product  
 1
-# ── 1. Page Configuration & State Initialization ──────────────────
-st.set_page_config(page_title="NutriScan AI", page_icon="🥗", layout="wide")
 
-# Session states for the step-by-step wizard
+st.set_page_config(page_title="NutriLens", page_icon="🥗", layout="wide")
+
 if "profile_confirmed" not in st.session_state:
     st.session_state["profile_confirmed"] = False
 if "active_barcode" not in st.session_state:
@@ -22,7 +21,7 @@ user_profile_data = {
                 "dietary_preference": st.session_state.get("dietary_preference", "None")
             }
 
-# ── 2. Safe UI Badge Helpers ──────────────────────────────────────
+
 def get_nutriscore_badge(grade) -> tuple[str, str, str]:
     grade_str = str(grade).upper() if grade else "UNKNOWN"
     mapping = {
@@ -50,7 +49,7 @@ def get_nova_badge(group) -> tuple[str, str]:
 
 
 
-# ── 3. Dashboard UI Renderer ──────────────────────────────────────
+
 def render_nutriscan_dashboard(data: dict):
     meta = data.get("product_meta", {})
 
@@ -64,21 +63,19 @@ def render_nutriscan_dashboard(data: dict):
     with col_title:
         st.title(meta.get("name", "Product Analysis"))
         st.caption(f"**Brand:** {meta.get('brand')} | **Barcode:** `{meta.get('barcode')}` | **Price Entered:** ₹{st.session_state['scanned_price']}")
-# 1. Check what Open Food Facts gave us
+
         off_nutri = meta.get("nutriscore")
         off_nova = meta.get("nova_group")
 
         valid_nutri = off_nutri and str(off_nutri).upper() in ["A", "B", "C", "D", "E"]
         valid_nova = off_nova and str(off_nova) in ["1", "2", "3", "4"]
 
-        # 2. Grab the AI's fallback estimates from Gemini
         estimates = data.get("estimated_scores", {})
         
-        # 3. Decide which one to use (OFF first, AI as backup)
+
         final_nutri = off_nutri if valid_nutri else estimates.get("nutriscore", "UNKNOWN")
         final_nova = off_nova if valid_nova else estimates.get("nova_group", 0)
 
-        # 4. Generate the badges using the final decision
         score_label, score_desc, score_color = get_nutriscore_badge(final_nutri)
         nova_title, nova_desc = get_nova_badge(final_nova)
 
@@ -88,12 +85,17 @@ def render_nutriscan_dashboard(data: dict):
             with st.popover(f"{prefix} :{score_color}[{score_label}]"):
                 if not valid_nutri: st.warning("⚠️ *Nutriscore is evaluated using our own database and AI*")
                 st.info(f"**Status:** {score_desc}")
+                # --- ADD THIS LINE FOR NUTRI-SCORE RANGE ---
+                st.caption("ℹ️ **Range Guide:** Grades from **A** (Highest quality) to **E** (Lowest quality).")
 
         with col_badge2:
             prefix2 = "⚙️ **NOVA Group:**" if valid_nova else "🤖 **NOVA Group:**"
             with st.popover(f"{prefix2} **{nova_title}**"):
                 if not valid_nova: st.warning("⚠️ *Nova group is calculated using our own database and AI*")
                 st.warning(f"**Status:** {nova_desc}")
+                # --- ADD THIS LINE FOR NOVA RANGE ---
+                st.caption("ℹ️ **Range Guide:** Levels from **Group 1** (Unprocessed) to **Group 4** (Ultra-Processed).")
+
 
     st.markdown("---")
 
@@ -108,7 +110,6 @@ def render_nutriscan_dashboard(data: dict):
     st.info(f"💡 **Summary:** {data.get('emotional_message')}")
     st.markdown("---")
 
-    # ── Clean & Intuitive Compatibility Summary ──
 
     
     ai_fact = data.get("fun_fact", "Staying hydrated helps your body process nutrients more efficiently!")
@@ -153,10 +154,9 @@ def render_nutriscan_dashboard(data: dict):
                     st.info(f"Why it's better: {alt.get('why_better')}")
 
 
-# ── STEP 1: Professional Profile Setup (Sidebar) ──────────────────
+
 st.sidebar.title("👤 1. Your Health Profile")
 
-# Disable inputs if the profile is already confirmed
 input_disabled = st.session_state["profile_confirmed"]
 
 user_age = st.sidebar.number_input(
@@ -184,10 +184,9 @@ is_diabetic = st.sidebar.checkbox("🩸 Diabetic / Insulin Sensitive", disabled=
 is_asthmatic = st.sidebar.checkbox("🫁 Sulphite Sensitive (Asthma)", disabled=input_disabled)
 is_lactose = st.sidebar.checkbox("🥛 Lactose Sensitive", disabled=input_disabled)
 
-# Store the profile in session state when confirmed
 if not st.session_state["profile_confirmed"]:
     if st.sidebar.button("✅ Confirm Profile & Continue", type="primary", use_container_width=True):
-        # Save profile logic
+
         st.session_state["user_profile"] = {
             "age": user_age,
             "preset": profile_preset,
@@ -210,19 +209,15 @@ else:
         st.session_state["analysis_ready"] = False
         st.rerun()
 
-# ── Main App Layout Workflow ──────────────────────────────────────
+
 st.title("🥗 NutriLens-Scan. Know. Eat")
 
-# WIZARD STEP 1: Waiting for profile confirmation
 if not st.session_state["profile_confirmed"]:
     st.info("👈 **Welcome to NutriLens !** \n\nPlease configure your health goals and dietary restrictions in the sidebar, then click **Confirm Profile & Continue** to activate the scanner.")
 
-# WIZARD STEP 2: Scan Barcode
-# WIZARD STEP 2: Scan Barcode
 elif not st.session_state["active_barcode"]:
     st.markdown("### Step 2: Product Identification")
     
-    # Using a radio toggle instead of tabs ensures the camera actually turns off
     input_method = st.radio(
         "Select Input Method:",
         ["📷 Camera Scanner", "⌨️ Manual Barcode Input"],
@@ -237,14 +232,14 @@ elif not st.session_state["active_barcode"]:
             st.rerun()
             
     elif input_method == "⌨️ Manual Barcode Input":
-        # The camera function is completely ignored here, so the webcam turns off!
-        manual_input = st.text_input("Enter Barcode Number", placeholder="e.g. 3017620422003")
+    
+        manual_input = st.text_input("Enter Barcode Number", placeholder="e.g. 8901764012914")
         if st.button("Proceed with Manual Barcode"):
             if manual_input.strip():
                 st.session_state["active_barcode"] = manual_input.strip()
                 st.rerun()
 
-# WIZARD STEP 3: Enter Price
+
 elif st.session_state["active_barcode"] and not st.session_state["analysis_ready"]:
     st.success(f"✅ Product Identified: **{st.session_state['active_barcode']}**")
     st.markdown("### Step 3: Enter Price")
@@ -264,7 +259,7 @@ elif st.session_state["active_barcode"] and not st.session_state["analysis_ready
                 st.session_state["active_barcode"] = None
                 st.rerun()
 
-# WIZARD STEP 4: Run Analysis
+
 elif st.session_state["active_barcode"] and st.session_state["analysis_ready"]:
     
     if st.button("🔄 Scan a New Product"):
@@ -289,7 +284,7 @@ elif st.session_state["active_barcode"] and st.session_state["analysis_ready"]:
             )
 
         render_nutriscan_dashboard(analysis_result)
-# ── Footer / Legal Disclaimer ─────────────────────────────────────
+
 st.markdown("---")
 st.caption(
     "**⚖️ Disclaimer:** NutriLens is designed for educational and informational "
