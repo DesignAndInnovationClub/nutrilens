@@ -165,13 +165,44 @@ YOUR TASK & RULES
 """
 
     generation_config = genai.types.GenerationConfig(
-        temperature=0.3, max_output_tokens=2500, response_mime_type="application/json"
+        temperature=0.3, max_output_tokens=4000, response_mime_type="application/json"
     )
 
    
-    response = model.generate_content(
-        prompt, generation_config=generation_config
+    generation_config = genai.types.GenerationConfig(
+        temperature=0.3, 
+        max_output_tokens=4000,  # <--- Increased token limit here
+        response_mime_type="application/json"
     )
+
+    # Wrap the API call in a try-except block to handle ResourceExhausted gracefully
+    try:
+        response = model.generate_content(
+            prompt, generation_config=generation_config
+        )
+    except Exception as e:
+        print(f"🚨 GEMINI API ERROR / QUOTA EXHAUSTED: {e}")
+        # Return a safe fallback dictionary so the app doesn't crash with a red screen
+        return {
+            "score": 5.0,
+            "one_liner": "API rate limit reached. Please wait a moment and rescan.",
+            "verdict": "CAUTION",
+            "ingredients_available": False,
+            "emotional_message": "The system is currently experiencing high traffic or has hit its free tier quota limit. Please wait about 60 seconds before trying another scan.",
+            "fun_fact": "API rate limits protect services from getting overwhelmed.",
+            "estimated_scores": {"nutriscore": "C", "nova_group": 3},
+            "harmful_ingredients": [],
+            "hidden_sugars": [],
+            "nutrition_reality": {
+                "sugar_verdict": "Unavailable due to rate limit.",
+                "protein_verdict": "Unavailable due to rate limit.",
+                "salt_verdict": "Unavailable due to rate limit."
+            },
+            "budget_alternatives": []
+        }
+
+    raw = response.text.strip()
+    raw = raw.replace("```json", "").replace("```", "").strip()
     raw = response.text.strip()
 
   
