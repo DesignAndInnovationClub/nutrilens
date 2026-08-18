@@ -1,70 +1,60 @@
 import cv2
-from pyzbar import pyzbar 
-import streamlit as st
 import numpy as np
+import streamlit as st
+import zxingcpp
 
 def barcode_scanner():
-    """Enterprise-grade robust barcode scanner built to handle tilt, blur, and poor lighting."""
+    """Robust barcode scanner supporting both live camera input and gallery photo uploads."""
     
-    camera_image = st.camera_input("Take a picture of the food package barcode")
-    scanned_data = None
+    st.subheader("📷 Scan or Upload Barcode")
+    
+    # Give users options on how they want to provide the image
+    input_method = st.radio("Choose input method:", ["Live Camera Capture", "Upload from Gallery"], horizontal=True)
+    
+    image_bytes = None
 
-    if camera_image is not None:
-        # Read raw bytes into OpenCV
-        bytes_data = camera_image.getvalue()
-        frame = cv2.imdecode(np.frombuffer(bytes_data, np.uint8), cv2.IMREAD_COLOR)
+    if input_method == "Live Camera Capture":
+        camera_file = st.camera_input("Take a picture of the food package barcode")
+        if camera_file is not None:
+            image_bytes = camera_file.getvalue()
+    else:
+        upload_file = st.file_uploader("Upload product photo or barcode image", type=["jpg", "jpeg", "png"])
+        if upload_file is not None:
+            image_bytes = upload_file.getvalue()
+
+    if image_bytes is not None:
+        # Convert raw bytes to OpenCV frame
+        frame = cv2.imdecode(np.frombuffer(image_bytes, np.uint8), cv2.IMREAD_COLOR)
 
         if frame is None:
-            st.error("Failed to read camera image. Please try again.")
+            st.error("Could not process the image. Please try another file.")
             return None
 
-        # Resize for consistent processing speed
-        max_dim = 1200
-        h, w = frame.shape[:2]
-        if max(h, w) > max_dim:
-            scaling = max_dim / float(max(h, w))
-            frame = cv2.resize(frame, (int(w * scaling), int(h * scaling)))
+        # Optional preview of the selected image
+        st.image(framechannels_to_rgb(frame) if 'framechannels_to_rgb' in globals() else cv2.cvtColor(frame, cv2.COLOR_BGR2RGB), caption="Processed Image", width=300)
 
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        # Apply zxing-cpp processing pipeline
+        gaussian = cv2.GaussianBlur(frame, (0, 0), 2.0)
+        sharpened = cv2.addWeighted(frame, 1.5, gaussian, -0.5, 0)
 
-        # 1. Image Enhancements (Sharpening and Contrast Stretching)
-        kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
-        sharpened = cv2.filter2D(gray, -1, kernel)
-        
-        # Adaptive thresholding to handle shadows/glare
-        thresh = cv2.adaptiveThreshold(
-            sharpened, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
-            cv2.THRESH_BINARY, 11, 2
-        )
+        try:
+            results = zxingcpp.read_barcodes(sharpened, try_rotate=True, try_downscale=True)
 
-        # Helper to rotate images cleanly
-        def rotate(image, angle):
-            center = tuple(np.array(image.shape[1::-1]) / 2)
-            matrix = cv2.getRotationMatrix2D(center, angle, 1.0)
-            return cv2.warpAffine(image, matrix, image.shape[1::-1], flags=cv2.INTER_LINEAR)
-
-        # Comprehensive angle sweeps to fix any tilt (covers all 360 degrees in increments)
-        angles_to_check = [0, 15, -15, 30, -30, 45, -45, 90, 180, 270]
-        
-        barcodes = []
-        # Try finding barcodes across processed variations and rotations
-        candidate_images = [gray, sharpened, thresh]
-        
-        for img in candidate_images:
-            for angle in angles_to_check:
-                rotated = rotate(img, angle)
-                barcodes = pyzbar.decode(rotated)
-                if barcodes:
-                    break
-            if barcodes:
-                break
-
-        if barcodes:
-            for barcode in barcodes:
-                scanned_data = barcode.data.decode("utf-8")
+            if results:
+                scanned_data = results[0].text
                 st.success(f"Barcode successfully scanned: {scanned_data}")
                 return scanned_data
-        else:
-            st.warning("Barcode could not be detected. Ensure the barcode lines are clear, well-lit, and fill up the center of the frame.")
+            else:
+                # Fallback to original frame
+                results_fallback = zxingcpp.read_barcodes(frame)
+                if results_fallback:
+                    scanned_data = results_fallback[0].text
+                    st.success(f"Barcode successfully scanned: {scanned_data}")
+                    return scanned_data
+                
+                st.warning("No barcode detected in this image. Make sure the barcode lines are clear and visible.")
 
-    return scanned_data
+        except Exception as e:
+            st.error(f"Scanning error: {e}")
+
+    return None
